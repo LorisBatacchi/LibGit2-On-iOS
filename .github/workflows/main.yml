@@ -6,7 +6,7 @@ jobs:
     runs-on: macos-latest
     steps:
       - uses: actions/checkout@v3
-      - run: xcodebuild -downloadPlatform visionOS
+      - run: xcodebuild -downloadPlatform xros
       - run: ./build-tools.sh
       - run: ./build-libgit2-framework.sh
       - run: swift package compute-checksum libgit2.xcframework.zip
