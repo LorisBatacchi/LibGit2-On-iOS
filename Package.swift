@@ -1,10 +1,10 @@
-// swift-tools-version:5.3
+// swift-tools-version:5.9
 
 import PackageDescription
 
 let package = Package(
 	name: "Clibgit2",
-	platforms: [.iOS(.v13)],
+	platforms: [.iOS(.v13), .visionOS(.v1)],
 	products: [
 		.library(
 			name: "Clibgit2",
