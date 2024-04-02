@@ -53,7 +53,7 @@ function setup_variables() {
 
 		"visionOS")
 			ARCH=arm64
-			SYSROOT=`xcodebuild -version -sdk visionOS Path`
+			SYSROOT=`xcodebuild -version -sdk xros Path`
 			CMAKE_ARGS+=(-DCMAKE_OSX_ARCHITECTURES=$ARCH \
 				-DCMAKE_OSX_SYSROOT=$SYSROOT -DCMAKE_OSX_DEPLOYMENT_TARGET=1.0);;
 
