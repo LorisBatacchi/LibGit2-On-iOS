@@ -16,7 +16,8 @@ let package = Package(
 		.binaryTarget(
 			name: "Clibgit2",
 			url: "https://github.com/LorisBatacchi/LibGit2-On-iOS/releases/download/0.0.2/Clibgit2.xcframework.zip",
-			checksum: "fa0af3526f5524898910898fe8f2ba56f81b4d3da05ece48f39f401e90222334"
+			checksum: "9f9c44c7a21d5a7c107696a3b995c59c2468de51539bb6cf64dd8c551d9be579"
 		),
 	]
 )
+
